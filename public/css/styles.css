@@ -1,0 +1,31 @@
+.navbar{
+  background-color: black;
+  font-size: 1rem;
+  border: 10px;
+  padding: 20px;
+}
+.nav-link{
+  border-left: 100px;
+}
+hr{
+  border-color: red;
+  size:3rem;
+  border-width: 5px;
+  margin-top: 0;
+
+
+}
+.top-footer{
+  background-color: black;
+  color: white;
+}
+.bottom-footer{
+  background-color:#393b44;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+#navbarSupportedContent{
+  text-align: center;
+  margin-left: 100px;
+}

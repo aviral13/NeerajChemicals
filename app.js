@@ -1,9 +1,10 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
-// const aos=require("aos")
+const aos=require("aos")
 
  const app=express();
+
 
  app.set('view engine', 'ejs');
 
@@ -23,7 +24,26 @@ const ejs = require("ejs");
    res.render("contact");
  })
 
-
+// $(document).ready(function(){
+//   $('.submit').click(function(event){
+//     event.preventDefault()
+//
+//     var firstName=$('fname').val()
+//     var lastName=$('lname').val()
+//
+//     var email=$('email').val()
+//     var contactNo=$('contact').val()
+//     var statusElm=$('.status')
+//     statusElm.empty()
+//
+//     if(firstName.length<0){
+//       statusElm.append('<div>Please Enter the First Name</div>')
+//     }
+//     if(lastName.length<0){
+//       statusElm.append('<div>Please Enter the Last Name</div>')
+//     }
+//   })
+// })
 
 
 

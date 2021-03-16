@@ -1,4 +1,5 @@
-<footer class="section-footer">
+<footer class="footer">
+  <div class="section-footer">
     <div class="container">
       <div data-aos="fade-right" >
         <h2><strong><i class="fas fa-map-marker-alt"></i> Neeraj Chemicals</strong></h2>
@@ -6,8 +7,9 @@
         <a href="tel:(+91)+919917470535"><p><i class="fas fa-phone"></i> +919917470535</p></a>
         <a href="tel:(+91)7297043322"><p><i class="fas fa-phone"></i>+917297043322</p></a>
         <a href="tel:(+91)9837082535 "><p><i class="fas fa-phone"></i> +919837082535</p></a>
-        <a href="http://twitter.com">
-          <i class="fab fa-twitter fa-2x"></i>
+        <a href="https://wa.me/+917424903463">
+          <i class="fab fa-whatsapp"></i>
+
         </a>
         <a href="http://facebook.com">
           <i class="fab fa-facebook fa-2x"></i>
@@ -28,6 +30,10 @@
 
       <div data-aos="fade-left">
         <h3><strong>Reach Us</strong></h3>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.5480438203954!2d78.57732115085474!3d28.58333134604238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390b1f47bad00975%3A0x567288cc7126c54b!2sSambhal-%20Chandausi%20Rd%2C%20Sambhal%2C%20Uttar%20Pradesh%20244302!5e0!3m2!1sen!2sin!4v1601204037522!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </div>
 
 
   </div>
@@ -36,11 +42,12 @@
   <p>@Neeraj Chemicals All Rights Reserved (Terms Of Use)</p>
 
 </div>
+  </div>
+
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simple-lightbox.min.js">
 
 </script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -49,16 +56,16 @@
     duration:2000,
   });
 </script>
+<script>
 
-
-  <script>
-      $(function() {
-      const $gallery = $('.gallery a').simpleLightbox();
+  var preloader = document.getElementById("loader-wrapper");
+  window.addEventListener('load', function(){
+    preloader.style.display = 'none';
     })
-  </script>
 
-
-
-
+  function myFunction(){
+    preloader.style.display = 'none';
+  };
+</script>
 </body>
 </html>
